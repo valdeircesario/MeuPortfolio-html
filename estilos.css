@@ -19,6 +19,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .preloader {
@@ -31,6 +32,7 @@ body {
     animation: preloader linear 5s infinite;
     left: 0%;
     top: 20px;
+    
     /* Ajuste para posicionar à esquerda */
 }
 
@@ -86,21 +88,21 @@ body {
 :root {
     --corPrincipal: #21262c;
     --corEscura: #39393c;
+    
 }
+
+
 
 .header {
     padding: 50px calc(10% + 2vw) 50px calc(10% + 2vw);
     background-image: linear-gradient(var(--corPrincipal), var(--corEscura));
     color: #f8f7f7;
-    width: 100%;
+    width: 80%;
     border-radius: 30px;
-    border-top: 8px solid black animation:rotate-loader 1s #eadcdc;
-}
-
-@keyframes rotate-loader {
-    100% {
-        transform: rotate(360deg);
-    }
+    border: 3px solid transparent;
+    /* Inicialmente transparente para ver a animação */
+    border: 3px groove;
+   
 }
 
 
@@ -113,6 +115,8 @@ body {
 
 .header td {
     vertical-align: middle;
+    
+    
 }
 
 
@@ -123,6 +127,7 @@ body {
 .logo {
     width: 1%;
     margin-right: 2vw;
+    
 
 }
 
@@ -134,7 +139,7 @@ body {
     width: 9vw;
     height: 9vw;
     border-radius: 50%;
-    animation: rotate-loader 1s #eadcdc;
+     
 }
 
 
@@ -143,6 +148,7 @@ body {
 
 .header b {
     font-size: 3vw;
+    
 }
 
 
@@ -155,6 +161,7 @@ body {
 
 .tabela {
     width: 80%;
+    
 
 
     margin: 0 auto;
@@ -176,15 +183,18 @@ body {
     padding: 10px 4vw;
     font-size: 3vw;
     text-decoration: none;
-    color: #443131;
-    border-radius: 10px;
+    color: #111010;
+    border-radius: 15px;
     margin: .7vw;
+    border: 3px groove;
 }
 
 
 .menu a:hover {
     color: var(--corClara);
     background-color: var(--corPrincipal);
+    
+    
 }
 
 
@@ -225,6 +235,7 @@ body {
     padding: 2vw;
     border-radius: 20px;
     border-collapse: separate;
+    border:3px groove;
 }
 
 .hero a {
@@ -235,7 +246,7 @@ body {
     padding: 15px;
     margin-top: 20px;
     font-size: 1.5vw;
-    border-radius: 1vw;
+    border-radius: 2vw;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -253,6 +264,7 @@ body {
 
 .td1 {
     width: 12vw;
+    
 }
 
 .paginas a {
@@ -334,17 +346,18 @@ body {
 
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: calc(10% + 2vw);
-    padding-right: calc(10% + 2vw);
-    color: #16161b;
+    padding-left: calc(50% + 2vw);
+    padding-right: calc(50% + 2vw);
+    color: #e1e1e9;
     text-align: center;
-    background-color: #dcdbdb;
-    border-top: 1px solid #2c3744;
+    background-image: linear-gradient(var(--corPrincipal), var(--corEscura));
+    
 }
 
 
 .footer img {
     width: 15vw;
+    
 }
 
 .pt1 {
@@ -507,4 +520,71 @@ body {
 
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+body {
+    background: #292b37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    perspective: 700px;
+}
+
+div span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-left: 5px #fff solid;
+    border-top: 10px transparent solid;
+    border-right: 5px #fff solid;
+}
+
+div span:nth-of-type(1) {
+    animation: ani-1 1s linear infinite;
+}
+
+div span:nth-of-type(2) {
+    animation: ani-2 1s linear infinite;
+}
+
+div span:nth-of-type(3) {
+    animation: ani-3 1s linear infinite;
+}
+
+@keyframes ani-1 {
+    from {
+        transform: rotateZ(120deg) rotateX(70deg) rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(120deg) rotateX(70deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ani-2 {
+    from {
+        transform: rotateZ(240deg) rotateX(70deg) rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(240deg) rotateX(70deg) rotateZ(360deg);
+    }
+}
+
+@keyframes ani-3 {
+    from {
+        transform: rotateZ(360deg) rotateX(70deg) rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(36deg) rotateX(70deg) rotateZ(360deg);
+    }
 }
