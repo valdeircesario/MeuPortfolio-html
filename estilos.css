@@ -10,77 +10,8 @@ body {
     background: #5e5555;
     display: flex;
     justify-content: flex-start;
-    /* Alterado para começar o alinhamento à esquerda */
     align-items: center;
     margin: 0;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-
-.preloader {
-    width: 120px;
-    height: 120px;
-    border-top: 5px solid #4d4c94;
-    position: relative;
-    transform: rotate(-30deg);
-    border-radius: 50%;
-    animation: preloader linear 5s infinite;
-    left: 0%;
-    top: 20px;
-    
-    /* Ajuste para posicionar à esquerda */
-}
-
-.preloader::before {
-    content: "";
-    width: 80px;
-    height: 80px;
-    border-top: 5px solid lightblue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(30deg);
-    border-radius: 50%;
-}
-
-.preloader::after {
-    content: "";
-    width: 100px;
-    height: 100px;
-    border-top: 5px solid #c08862;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(60deg);
-    border-radius: 50%;
-}
-
-@keyframes preloader {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-body {
-    background-color: #dcdbdb;
 }
 
 
@@ -88,10 +19,7 @@ body {
 :root {
     --corPrincipal: #21262c;
     --corEscura: #39393c;
-    
 }
-
-
 
 .header {
     padding: 50px calc(10% + 2vw) 50px calc(10% + 2vw);
@@ -99,15 +27,9 @@ body {
     color: #f8f7f7;
     width: 80%;
     border-radius: 30px;
-    border: 3px solid transparent;
-    /* Inicialmente transparente para ver a animação */
-    border: 3px groove;
-   
+    border: 3px double #fafafa;
+
 }
-
-
-
-
 
 
 
@@ -115,8 +37,9 @@ body {
 
 .header td {
     vertical-align: middle;
-    
-    
+
+
+
 }
 
 
@@ -127,7 +50,6 @@ body {
 .logo {
     width: 1%;
     margin-right: 2vw;
-    
 
 }
 
@@ -139,7 +61,7 @@ body {
     width: 9vw;
     height: 9vw;
     border-radius: 50%;
-     
+
 }
 
 
@@ -148,7 +70,8 @@ body {
 
 .header b {
     font-size: 3vw;
-    
+
+
 }
 
 
@@ -161,7 +84,6 @@ body {
 
 .tabela {
     width: 80%;
-    
 
 
     margin: 0 auto;
@@ -175,6 +97,7 @@ body {
 .menu {
     text-align: center;
     padding-bottom: 2rem;
+
 }
 
 .menu a {
@@ -183,18 +106,16 @@ body {
     padding: 10px 4vw;
     font-size: 3vw;
     text-decoration: none;
-    color: #111010;
-    border-radius: 15px;
+    color: #443131;
+    border-radius: 22px;
     margin: .7vw;
-    border: 3px groove;
+    border: 3px double #fafafa;
 }
 
 
 .menu a:hover {
     color: var(--corClara);
     background-color: var(--corPrincipal);
-    
-    
 }
 
 
@@ -235,7 +156,7 @@ body {
     padding: 2vw;
     border-radius: 20px;
     border-collapse: separate;
-    border:3px groove;
+    border: 3px double #fafafa;
 }
 
 .hero a {
@@ -246,7 +167,7 @@ body {
     padding: 15px;
     margin-top: 20px;
     font-size: 1.5vw;
-    border-radius: 2vw;
+    border-radius: 1vw;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -264,7 +185,6 @@ body {
 
 .td1 {
     width: 12vw;
-    
 }
 
 .paginas a {
@@ -346,18 +266,22 @@ body {
 
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: calc(50% + 2vw);
-    padding-right: calc(50% + 2vw);
-    color: #e1e1e9;
+    padding-left: 100%;
+    padding-right: 100%;
+
     text-align: center;
-    background-image: linear-gradient(var(--corPrincipal), var(--corEscura));
-    
+    background-color: --corPrincipal: #21262c;
+    --corEscura #39393c;
+
 }
 
 
 .footer img {
     width: 15vw;
-    
+    opacity: 0.5;
+
+
+
 }
 
 .pt1 {
@@ -521,6 +445,7 @@ body {
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
 body {
     background: #292b37;
     display: flex;
