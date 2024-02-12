@@ -141,7 +141,22 @@ body {
     line-height: 3vw;
 }
 
+h4 {
+    
+    color: white;
+}
+h3 {
 
+    color: rgb(123, 98, 223);
+}
+h1 {
+
+    color: white;
+}
+h2 {
+
+    color: white;
+}
 
 
 
@@ -184,7 +199,9 @@ body {
 }
 
 .td1 {
-    width: 12vw;
+    
+    width: 14vw;
+    color: white;
 }
 
 .paginas a {
@@ -268,9 +285,11 @@ body {
     padding-bottom: 30px;
     padding-left: 100%;
     padding-right: 100%;
+    font-family: "Caveat";
+    color: white;
 
     text-align: center;
-    background-color: --corPrincipal: #21262c;
+    background-color: --corPrincipal #21262c
     --corEscura #39393c;
 
 }
@@ -286,6 +305,7 @@ body {
 
 .pt1 {
     padding-top: 10px;
+    
 }
 
 .pt2 {
@@ -324,29 +344,6 @@ body {
     padding: 25px;
 }
 
-/* .gallery {
-    width: 50%;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    gap: 5px;
-
-}
-
-
-
-.gallery img {
-    width:15%;
-    height: 200%;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid white;
-    transition: all ease 0.3s;
-    cursor: pointer;
-}
-
-.gallery img:hover {
-    width: 20%; /* Ajustei para que a imagem fique um pouco maior ao passar o mouse */
 
 
 
