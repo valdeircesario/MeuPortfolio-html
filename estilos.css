@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background: #5e5555;
+    background: #efe8e8;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -17,8 +17,8 @@ body {
 
 
 :root {
-    --corPrincipal: #21262c;
-    --corEscura: #39393c;
+    --corPrincipal: #626364;
+    --corEscura: #9595f6;
 }
 
 .header {
@@ -143,19 +143,19 @@ body {
 
 h4 {
     
-    color: white;
+    color: rgb(20, 18, 18);
 }
 h3 {
 
-    color: rgb(123, 98, 223);
+    color: rgb(15, 15, 16);
 }
 h1 {
 
-    color: white;
+    color: rgb(20, 18, 18);
 }
 h2 {
 
-    color: white;
+    color: rgb(18, 16, 16);
 }
 
 
@@ -163,7 +163,7 @@ h2 {
 .hero h3 {
     font-size: 2vw;
     font-family: "Caveat";
-    color: white;
+    color: rgb(18, 16, 16);
 }
 
 .hero td:first-child {
@@ -171,7 +171,7 @@ h2 {
     padding: 2vw;
     border-radius: 20px;
     border-collapse: separate;
-    border: 3px double #fafafa;
+    border: 3px double #171515;
 }
 
 .hero a {
@@ -444,7 +444,7 @@ body {
 }
 
 body {
-    background: #292b37;
+    background: #676d95;
     display: flex;
     justify-content: center;
     align-items: center;
