@@ -45,6 +45,16 @@ Veja abaixo algumas capturas de tela do MeuPortfolio:
 ## Tecnologias Utilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
+<div style="display: inline_block"><br>
+        
+  <img align="center" alt="VAL-HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="VAL-CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="VAL-vscode" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" >
+  <img align="center" alt="VAL-Bootstrap" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
+
+  
+</div>
+<P></P>
 
 - **HTML**: Estrutura do site.
 - **CSS**: Estilização visual.
