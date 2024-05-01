@@ -1,56 +1,60 @@
 # MeuPortfolio
 
+MeuPortfolio é um site pessoal criado como parte de meu trabalho de conclusão de curso em Desenvolvimento Web. Este projeto é construído usando HTML, CSS e o framework Bootstrap, com desenvolvimento auxiliado pela ferramenta VSCode.
 
+## Link do Portfolio
 
+Acesse meu portfólio online aqui: [MeuPortfolio](https://valdeircesario.github.io/MeuPortfolio-html/index.html)
 
-MeuPortfolio é um projeto desenvolvido como trabalho de conclusão de curso em Desenvolvimento Web. Foi implementado utilizando apenas HTML, CSS e o framework Bootstrap.
+## Visão Geral
 
-## Visão geral
-
-MeuPortfolio é um site pessoal que apresenta meu trabalho e habilidades como desenvolvedor web. Ele possui um design responsivo e moderno, destacando projetos, experiência e informações de contato.
+O MeuPortfolio destaca minhas habilidades e trabalhos como desenvolvedor web, oferecendo um design responsivo e moderno que inclui informações sobre projetos anteriores, minha experiência profissional e detalhes de contato.
 
 ## Demonstração
 
-Aqui está uma prévia do MeuPortfolio:
+Veja abaixo algumas capturas de tela do MeuPortfolio:
 
-<div style="display: flex; flex-wrap: wrap;">
-    <div style="flex-basis: 50%; padding: 10px;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="margin-bottom: 20px;">
         <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/065e30b6-22c3-462d-8497-e8c6b4e82ea9" alt="Página Inicial" width="400">
         <p><em>Figura 1: Página inicial do MeuPortfolio.</em></p>
     </div>
-    <div style="flex-basis: 50%; padding: 10px;">
-        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/73f85670-c7ef-42c6-b4ec-59e7f6ae654d" alt="Seção Sobre mim" width="400">
-        <p><em>Figura 2: Seção Sobre mim do MeuPortfolio.</em></p>
+    <div style="margin-bottom: 20px;">
+        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/73f85670-c7ef-42c6-b4ec-59e7f6ae654d" alt="Seção Sobre Mim" width="400">
+        <p><em>Figura 2: Seção Sobre Mim do MeuPortfolio.</em></p>
     </div>
-    <div style="flex-basis: 50%; padding: 10px;">
-        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/6763df0d-4bc5-4c1d-8585-b16869ad9f7e" alt="Seção de projetos" width="400">
-        <p><em>Figura 3: Seção de projetos do MeuPortfolio.</em></p>
+    <div style="margin-bottom: 20px;">
+        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/6763df0d-4bc5-4c1d-8585-b16869ad9f7e" alt="Seção de Projetos" width="400">
+        <p><em>Figura 3: Seção de Projetos do MeuPortfolio.</em></p>
     </div>
-    <div style="flex-basis: 50%; padding: 10px;">
-        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/bc1a566f-1966-4e68-af84-9a9d0fc95a07" alt="Seção de contatos" width="400">
-        <p><em>Figura 4: Seção de contatos do MeuPortfolio.</em></p>
+    <div style="margin-bottom: 20px;">
+        <img src="https://github.com/valdeircesario/MeuPortfolio-html/assets/135670289/bc1a566f-1966-4e68-af84-9a9d0fc95a07" alt="Seção de Contatos" width="400">
+        <p><em>Figura 4: Seção de Contatos do MeuPortfolio.</em></p>
     </div>
 </div>
+
+
+
 ## Recursos
 
-- Design responsivo e atraente.
-- Seção de projetos destacando trabalhos realizados.
-- Informações sobre habilidades e experiência.
-- Formulário de contato interativo.
+- **Design Responsivo:** Se adapta perfeitamente a diferentes tamanhos de tela.
+- **Portfólio de Projetos:** Projetos destacados com descrições e imagens relevantes.
+- **Experiência Profissional:** Detalhes sobre minha trajetória e habilidades.
+- **Formulário de Contato:** Facilidade para entrar em contato diretamente através do site.
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
-Durante o desenvolvimento do MeuPortfolio, foram utilizadas as seguintes tecnologias:
+O projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- Framework Bootstrap para estilização e responsividade.
+- **HTML**: Estrutura do site.
+- **CSS**: Estilização visual.
+- **Bootstrap**: Framework usado para garantir a responsividade.
+- **VSCode**: Editor de código usado durante o desenvolvimento.
 
-## Como executar o projeto
+## Como Executar o Projeto
 
-Siga as etapas abaixo para executar o projeto em sua máquina local:
+Para rodar o MeuPortfolio localmente, siga os passos abaixo:
 
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/valdeircesario/MeuPortfolio.git
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/valdeircesario/MeuPortfolio.git
